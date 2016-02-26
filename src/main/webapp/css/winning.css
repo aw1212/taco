@@ -1,0 +1,72 @@
+body {
+    overflow: hidden;
+    background-image: url("http://i.imgur.com/dbNNyL9.jpg");
+    height:100%;
+}
+
+.congratulate {
+    font-size: 150px;
+    font-weight: bold;
+    background-color: #77DD77;
+    position: fixed;
+    -webkit-animation-name: winning;
+    -webkit-animation-duration: 10s;
+    left: 6%;
+}
+
+.correct {
+    height: 10em;
+    width: auto;
+    position: relative
+}
+
+.correct p {
+    position: absolute;
+    top: 220%;
+    left: 32%;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    background-color: RGB(0, 153, 255);
+    font-weight: bold;
+}
+
+html {
+    height: 100%;
+}
+
+.white-block {
+    top: 65%;
+    position: fixed;
+}
+
+iframe {
+    top: 65%;
+    position: fixed;
+    bottom: 0;
+    border: none;
+    width: 500px;
+    height: 350px;
+}
+
+.bottom-left {
+    left: 0;
+}
+
+.bottom-right {
+    right: 0;
+}
+
+.bottom-center {
+    right: 35%;
+    width: 550px;
+    height: 400px;
+}
+
+@-webkit-keyframes winning {
+    0% {background-color:deeppink; left:6%; top:0px;}
+    25% {background-color:orangered; left:6%; top:0px;}
+    50% {background-color:blue; left:6%; top:0px;}
+    75% {background-color:yellow; left:6%; top:0px;}
+    100% {background-color:red; left:6%; top:0px;}
+}

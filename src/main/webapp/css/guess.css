@@ -1,0 +1,56 @@
+.game-header {
+    font-size: 32px;
+}
+
+textarea {
+    position: relative;
+}
+
+.btn {
+    width: 15%;
+    position: relative;
+}
+
+.game-header.top {
+    text-align: center;
+}
+
+.top-game textarea {
+    left: 46%;
+}
+
+.top-game .btn {
+    left: 42.5%;
+}
+
+.win-text.top {
+    text-align: center;
+}
+
+.game-header.left {
+    text-align: left;
+}
+
+.left-game textarea {
+    left: 3%;
+}
+
+.left-game .btn {
+    left: 0;
+}
+
+.show-word .btn {
+    width: 40%;
+}
+
+.show-word.word {
+    position: relative;
+    left: 6.5%;
+    visibility: hidden;
+    -webkit-animation-name: flash;
+    -webkit-animation-duration: 1s;
+}
+
+@-webkit-keyframes flash {
+    100% {visibility: visible}
+}
