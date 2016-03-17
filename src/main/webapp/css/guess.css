@@ -11,6 +11,10 @@ textarea {
     position: relative;
 }
 
+.error.number {
+    text-align: center;
+}
+
 .game-header.top {
     text-align: center;
 }
@@ -27,7 +31,13 @@ textarea {
     text-align: center;
 }
 
+.error.word {
+    position: relative;
+    left: 5.3%;
+}
+
 .game-header.left {
+    top: 50%;
     text-align: left;
 }
 
@@ -45,7 +55,7 @@ textarea {
 
 .show-word.word {
     position: relative;
-    left: 6.5%;
+    left: 6%;
     visibility: hidden;
     -webkit-animation-name: flash;
     -webkit-animation-duration: 1s;

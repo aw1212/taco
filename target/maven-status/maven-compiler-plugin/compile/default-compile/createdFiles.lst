@@ -2,4 +2,5 @@ com/alessandra/taco/Model.class
 com/alessandra/taco/Application.class
 com/alessandra/taco/NumberGuessingService.class
 com/alessandra/taco/WordGuessingService.class
+com/alessandra/taco/DataBase.class
 com/alessandra/taco/TacoController.class

@@ -20,7 +20,7 @@ public class WordGuessingService {
             model.addAttribute("wonWord", "true");
             model.addAttribute("wonNumber", "true");
         } else {
-            model.addAttribute("errorMessage", "Wrong word");
+            model.addAttribute("wordError", "Wrong word");
             model.addAttribute("wonNumber", "true");
         }
 

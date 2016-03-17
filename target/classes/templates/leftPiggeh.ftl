@@ -12,7 +12,7 @@
 <body>
     <p class="game-header top">Guess The Number</p>
     <form action="/guessNumber" method="POST" class="top-game">
-        <div class="form-group error">
+        <div class="form-group error number">
         <#if numberError??>
             ${numberError}
         </#if>
@@ -38,7 +38,7 @@
         </#if>
     </div>
     <form action="/guessWord" method="POST" class="left-game">
-        <div class="form-group error">
+        <div class="form-group error word">
         <#if wordError??>
             ${wordError}
         </#if>
