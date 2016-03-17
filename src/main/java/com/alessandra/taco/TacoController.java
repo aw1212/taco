@@ -1,6 +1,7 @@
 package com.alessandra.taco;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
@@ -15,8 +16,12 @@ public class TacoController {
     @Autowired
     private WordGuessingService wordGuessingService;
 
+    @Autowired
+    private WordRepository wordRepository;
+
     @RequestMapping(value={"/", "/piggeh"})
     public String piggeh() {
+        wordRepository.createWordTable();
         return "homePage";
     }
 
